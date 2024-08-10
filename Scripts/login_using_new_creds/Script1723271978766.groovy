@@ -20,37 +20,24 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-//WebUI.refresh()
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('logout_and_login_after_new_employee_added/userdropdown_for_logout_option'), 10)
+WebUI.verifyElementPresent(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'),10)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'))
 
-WebUI.click(findTestObject('logout_and_login_after_new_employee_added/userdropdown_for_logout_option'))
+WebUI.setText(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'), GlobalVariable.extractedUsername)
 
-WebUI.delay(3)
+WebUI.verifyElementPresent(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'),10)
 
-WebUI.click(findTestObject('logout_and_login_after_new_employee_added/logout_option'))
+WebUI.click(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'))
 
-WebUI.delay(3)
+WebUI.setText(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'), GlobalVariable.extractedPassword)
 
-//WebUI.verifyElementPresent(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'),10)
+WebUI.verifyElementPresent(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page'),10)
 
-//WebUI.click(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'))
-
-//WebUI.setText(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'), GlobalVariable.User_name)
-
-//WebUI.verifyElementPresent(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'),10)
-
-//WebUI.click(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'))
-
-//WebUI.setText(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'), GlobalVariable.Password)
-
-//WebUI.verifyElementPresent(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page'),10)
-
-//WebUI.click(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page'))
+WebUI.click(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page'))
 
 
 

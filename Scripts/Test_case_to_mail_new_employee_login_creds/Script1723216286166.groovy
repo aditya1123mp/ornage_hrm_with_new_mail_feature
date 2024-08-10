@@ -31,8 +31,8 @@ props.put("mail.smtp.auth", "true")
 props.put("mail.smtp.starttls.enable", "true")
 
 // Email credentials (assuming they are predefined)
-final String emailUsername = "aditya_T2" // Replace with your email
-final String emailPassword = "Fi" // Replace with your email password
+final String emailUsername = "aditya_T2_WO" // Replace with your email
+final String emailPassword = "Fib" // Replace with your email password
 
 // Create session
 Session session = Session.getInstance(props, new Authenticator() {

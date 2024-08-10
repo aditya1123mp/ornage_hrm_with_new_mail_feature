@@ -23,6 +23,12 @@ WebUI.callTestCase(findTestCase('ADDING_A_NEW_EMPLOYEE'), [:], FailureHandling.S
 
 WebUI.callTestCase(findTestCase('logout_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Test_case_to_mail_new_employee_login_creds'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('test_case_to_reterive_the_login_creds_from_mail'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('login_using_new_creds'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('test_case_to_verify_data'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('TEST_CASE_TO_UPLOAD_PROFILE_PICTURE'), [:], FailureHandling.STOP_ON_FAILURE)

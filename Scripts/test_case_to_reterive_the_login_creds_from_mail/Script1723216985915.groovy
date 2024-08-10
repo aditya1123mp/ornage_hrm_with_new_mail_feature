@@ -1,4 +1,3 @@
-
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -19,35 +18,38 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import javax.mail.*
 import javax.mail.internet.*
-import java.util.Properties
-import javax.mail.search.FlagTerm
-import javax.mail.search.SearchTerm
-import javax.mail.search.SentDateTerm
-import javax.mail.search.AndTerm
-import java.util.Calendar
-import java.util.Date
+import java.util.Properties as Properties
+import javax.mail.search.FlagTerm as FlagTerm
+import javax.mail.search.SearchTerm as SearchTerm
+import javax.mail.search.SentDateTerm as SentDateTerm
+import javax.mail.search.AndTerm as AndTerm
+import java.util.Calendar as Calendar
+import java.util.Date as Date
+
+WebUI.delay(3)
 
 // Define email properties for reading from Gmail
 Properties props = new Properties()
-props.put("mail.store.protocol", "imaps")
-props.put("mail.imaps.host", "imap.gmail.com")
-props.put("mail.imaps.port", "993")
-props.put("mail.imaps.ssl.enable", "true")
+
+props.put('mail.store.protocol', 'imaps')
+props.put('mail.imaps.host', 'imap.gmail.com')
+props.put('mail.imaps.port', '993')
+props.put('mail.imaps.ssl.enable', 'true')
 
 // Define email credentials
-final String username = "a"
-final String password = "ahum" // App password
+String username = 'aditya1993'
+String password = 'ahum' // App password
 
 // Create session
 Session session = Session.getInstance(props, null)
 
 try {
     // Connect to the email store
-    Store store = session.getStore("imaps")
+    Store store = session.getStore('imaps')
     store.connect(username, password)
 
     // Open the inbox folder
-    Folder inbox = store.getFolder("INBOX")
+    Folder inbox = store.getFolder('INBOX')
     inbox.open(Folder.READ_ONLY)
 
     // Set the Calendar to the specific date 09/08/2024 without time
@@ -59,88 +61,91 @@ try {
     cal.set(Calendar.MINUTE, 0)
     cal.set(Calendar.SECOND, 0)
     cal.set(Calendar.MILLISECOND, 0)
-    
+
     // Convert to Date
     Date specificDate = cal.getTime()
 
     // Create a date search term for emails sent on or after 09/08/2024
     SearchTerm newerThan = new SentDateTerm(SentDateTerm.GE, specificDate)
-    
+
     // Combine the unseen filter with the date filter
     SearchTerm unseenAndNewer = new AndTerm(new FlagTerm(new Flags(Flags.Flag.SEEN), false), newerThan)
-    
+
     // Search for unseen and recent emails
     Message[] messages = inbox.search(unseenAndNewer)
-
-    println("Total messages found: " + messages.length)
+    println('Total messages found: ' + messages.length)
 
     if (messages.length > 0) {
         for (Message message : messages) {
             Address[] froms = message.getFrom()
-            String sender = froms[0].toString()
-            String email = sender.replaceAll(".*<|>", "").trim()
+            String sender = (froms[0]).toString()
+            String email = sender.replaceAll('.*<|>', '').trim()
 
             // Print all relevant information for debugging
-            println("Email sender: " + email)
-            println("Full From field: " + sender)
-            println("Subject: " + message.getSubject())
-            println("Sent Date: " + message.getSentDate())
+            println('Email sender: ' + email)
+            println('Full From field: ' + sender)
+            println('Subject: ' + message.getSubject())
+            println('Sent Date: ' + message.getSentDate())
 
             // Check if it matches the target address
-            if (email.equalsIgnoreCase("aditya_T2_W")) {
-                println("Match found for: " + email)
-                
+            if (email.equalsIgnoreCase('aditya_T2_WO')) {
+                println('Match found for: ' + email)
+
                 // Print content type for debugging
-                println("Content Type: " + message.getContentType())
+                println('Content Type: ' + message.getContentType())
 
                 Object content = message.getContent()
+                String textContent = ''
 
-                String textContent = ""
                 if (content instanceof String) {
-                    textContent = content.toString()
+                    textContent = content.toString() // Debugging output
                 } else if (content instanceof Multipart) {
-                    Multipart multipart = (Multipart) content
+                    Multipart multipart = (Multipart) content // Corrected type casting
+
                     for (int i = 0; i < multipart.getCount(); i++) {
                         BodyPart bodyPart = multipart.getBodyPart(i)
-                        println("Part Content Type: " + bodyPart.getContentType())  // Debugging output
-                        if (bodyPart.isMimeType("text/plain")) {
+
+                        println('Part Content Type: ' + bodyPart.getContentType())
+
+                        if (bodyPart.isMimeType('text/plain')) {
                             textContent = bodyPart.getContent().toString()
                             break
                         }
                     }
                 }
-
-                println("Extracted Content: " + textContent)
+                
+                println('Extracted Content: ' + textContent)
 
                 // Extract username and password
-                def usernameMatcher = textContent =~ /Username:\s*(\S+)/
-                def passwordMatcher = textContent =~ /Password:\s*(\S+)/
+                def usernameMatcher = textContent =~ 'Username:\\s*(\\S+)'
+                def passwordMatcher = textContent =~ 'Password:\\s*(\\S+)'
 
                 if (usernameMatcher.find() && passwordMatcher.find()) {
                     String extractedUsername = usernameMatcher.group(1)
                     String extractedPassword = passwordMatcher.group(1)
 
-                    println("Extracted Username: " + extractedUsername)
-                    println("Extracted Password: " + extractedPassword)
+                    println('Extracted Username: ' + extractedUsername)
+                    println('Extracted Password: ' + extractedPassword)
 
                     // You can store these in global variables if needed
                     GlobalVariable.extractedUsername = extractedUsername
                     GlobalVariable.extractedPassword = extractedPassword
                 } else {
-                    println("Username or Password not found in the email content.")
+                    println('Username or Password not found in the email content.')
                 }
-                break // Stop after processing the first match
+                
+                break
             } else {
-                println("No match for: " + email)
+                println('No match for: ' + email)
             }
         }
     } else {
-        println("No new emails found.")
+        println('No new emails found.')
     }
-
+    
     inbox.close(false)
     store.close()
-
-} catch (MessagingException e) {
-    e.printStackTrace()
 }
+catch (MessagingException e) {
+    e.printStackTrace()
+} 
