@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test_suite_for_ornange_hrm_with_mail_automation" time="117.697" tests="8" failures="1" errors="0">
+   <testsuite name="test_suite_for_ornange_hrm_with_mail_automation" tests="8" failures="1" errors="0" time="117.697" skipped="0" timestamp="10-08-2024T19:37:43" hostname="DELL - host.docker.internal" id="Test Suites/test_suite_for_ornange_hrm_with_mail_automation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\DELL\\git\\ornage_hrm_with_new_mail_feature\\Reports\\20240810_193739\\test_suite_for_ornange_hrm_with_mail_automation\\20240810_193739"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\git\\ornage_hrm_with_new_mail_feature\\Reports\\20240810_193739\\test_suite_for_ornange_hrm_with_mail_automation\\20240810_193739\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - host.docker.internal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.31.251"/>
+         <property name="sessionId" value="6ade27ac1e91d01d073c9faf8b965260"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/LOGIN_TEST_CASE_FOR_ORANGE_HRM" time="30.362" classname="Test Cases/LOGIN_TEST_CASE_FOR_ORANGE_HRM" status="PASSED">
+         <system-out><![CDATA[10-08-2024T19:37:43 - [TEST_CASE][PASSED] - Test Cases/LOGIN_TEST_CASE_FOR_ORANGE_HRM: Test Cases/LOGIN_TEST_CASE_FOR_ORANGE_HRM
+
+10-08-2024T19:37:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-08-2024T19:37:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-08-2024T19:37:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-08-2024T19:37:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-08-2024T19:37:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-08-2024T19:37:46 - [MESSAGE][PASSED] - Current window maximized
+
+10-08-2024T19:37:46 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+10-08-2024T19:38:08 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+10-08-2024T19:38:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page"), 10): Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page' is present
+
+10-08-2024T19:38:10 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page' is present
+
+10-08-2024T19:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page")): Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page' is clicked on
+
+10-08-2024T19:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page' is clicked on
+
+10-08-2024T19:38:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page"), "Admin"): Text 'Admin' is set on object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'
+
+10-08-2024T19:38:11 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'
+
+10-08-2024T19:38:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page"), 10): Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page' is present
+
+10-08-2024T19:38:12 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page' is present
+
+10-08-2024T19:38:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page")): Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page' is clicked on
+
+10-08-2024T19:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page' is clicked on
+
+10-08-2024T19:38:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page"), "admin123"): Text 'admin123' is set on object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'
+
+10-08-2024T19:38:13 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'
+
+10-08-2024T19:38:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page"), 0): Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page' is present
+
+10-08-2024T19:38:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+10-08-2024T19:38:13 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page' is present
+
+10-08-2024T19:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page")): Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page' is clicked on
+
+10-08-2024T19:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADDING_A_NEW_EMPLOYEE" time="30.475" classname="Test Cases/ADDING_A_NEW_EMPLOYEE" status="PASSED">
+         <system-out><![CDATA[10-08-2024T19:38:13 - [TEST_CASE][PASSED] - Test Cases/ADDING_A_NEW_EMPLOYEE: Test Cases/ADDING_A_NEW_EMPLOYEE
+
+10-08-2024T19:38:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADDING_A_NEW_EMPLOYEE/pim_option_from_side_bar"), 10): Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/pim_option_from_side_bar' is present
+
+10-08-2024T19:38:16 - [MESSAGE][PASSED] - Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/pim_option_from_side_bar' is present
+
+10-08-2024T19:38:16 - [TEST_STEP][PASSED] - click(findTestObject("ADDING_A_NEW_EMPLOYEE/pim_option_from_side_bar")): Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/pim_option_from_side_bar' is clicked on
+
+10-08-2024T19:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/pim_option_from_side_bar' is clicked on
+
+10-08-2024T19:38:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("ADDING_A_NEW_EMPLOYEE/adding_new_employee_button_in_pim_page"), 10): Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/adding_new_employee_button_in_pim_page' is present
+
+10-08-2024T19:38:23 - [MESSAGE][PASSED] - Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/adding_new_employee_button_in_pim_page' is present
+
+10-08-2024T19:38:23 - [TEST_STEP][PASSED] - click(findTestObject("ADDING_A_NEW_EMPLOYEE/adding_new_employee_button_in_pim_page")): Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/adding_new_employee_button_in_pim_page' is clicked on
+
+10-08-2024T19:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/adding_new_employee_button_in_pim_page' is clicked on
+
+10-08-2024T19:38:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADDING_A_NEW_EMPLOYEE/create_login_details_checkbox"), 10): Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/create_login_details_checkbox' is present
+
+10-08-2024T19:38:26 - [MESSAGE][PASSED] - Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/create_login_details_checkbox' is present
+
+10-08-2024T19:38:26 - [TEST_STEP][PASSED] - click(findTestObject("ADDING_A_NEW_EMPLOYEE/create_login_details_checkbox")): Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/create_login_details_checkbox' is clicked on
+
+10-08-2024T19:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/create_login_details_checkbox' is clicked on
+
+10-08-2024T19:38:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_enabled_radio_button"), 10): Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_enabled_radio_button' is present
+
+10-08-2024T19:38:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_enabled_radio_button' is present
+
+10-08-2024T19:38:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_enabled_radio_button")): Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_enabled_radio_button' is clicked on
+
+10-08-2024T19:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_enabled_radio_button' is clicked on
+
+10-08-2024T19:38:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name"), 10): Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name' is present
+
+10-08-2024T19:38:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name' is present
+
+10-08-2024T19:38:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name")): Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name' is clicked on
+
+10-08-2024T19:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name' is clicked on
+
+10-08-2024T19:38:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name"), "First_name_" + RandomStringUtils.randomAlphabetic(6)): Text 'First_name_rGLrkE' is set on object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name'
+
+10-08-2024T19:38:28 - [MESSAGE][PASSED] - Text 'First_name_rGLrkE' is set on object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name'
+
+10-08-2024T19:38:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name"), 10): Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name' is present
+
+10-08-2024T19:38:28 - [MESSAGE][PASSED] - Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name' is present
+
+10-08-2024T19:38:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name")): Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name' is clicked on
+
+10-08-2024T19:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name' is clicked on
+
+10-08-2024T19:38:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name"), "Middle_name_" + RandomStringUtils.randomAlphabetic(6)): Text 'Middle_name_vKvpwO' is set on object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name'
+
+10-08-2024T19:38:29 - [MESSAGE][PASSED] - Text 'Middle_name_vKvpwO' is set on object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name'
+
+10-08-2024T19:38:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name"), 10): Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name' is present
+
+10-08-2024T19:38:30 - [MESSAGE][PASSED] - Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name' is present
+
+10-08-2024T19:38:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name")): Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name' is clicked on
+
+10-08-2024T19:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name' is clicked on
+
+10-08-2024T19:38:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name"), "Last_name_" + RandomStringUtils.randomAlphabetic(6)): Text 'Last_name_LndLtR' is set on object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name'
+
+10-08-2024T19:38:30 - [MESSAGE][PASSED] - Text 'Last_name_LndLtR' is set on object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name'
+
+10-08-2024T19:38:30 - [TEST_STEP][PASSED] - randomString_001 = RandomStringUtils.randomNumeric(6): null
+
+10-08-2024T19:38:30 - [TEST_STEP][PASSED] - newValue_001 = "333" + randomString_001: null
+
+10-08-2024T19:38:30 - [TEST_STEP][PASSED] - xpath_for_employee_id = "//label[text()='Employee Id']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']": null
+
+10-08-2024T19:38:30 - [TEST_STEP][PASSED] - inputField_001 = TestObject().addProperty("xpath", EQUALS, xpath_for_employee_id): null
+
+10-08-2024T19:38:30 - [TEST_STEP][PASSED] - executeJavaScript(
+    var element = document.evaluate("$xpath_for_employee_id", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = '$newValue_001';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    , null): Execute JavaScript '
+    var element = document.evaluate("//label[text()='Employee Id']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = '333434353';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    ' successfully
+
+10-08-2024T19:38:31 - [MESSAGE][PASSED] - Execute JavaScript '
+    var element = document.evaluate("//label[text()='Employee Id']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = '333434353';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    ' successfully
+
+10-08-2024T19:38:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-08-2024T19:38:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-08-2024T19:38:34 - [TEST_STEP][PASSED] - randomString_for_password = RandomStringUtils.randomNumeric(4): null
+
+10-08-2024T19:38:34 - [TEST_STEP][PASSED] - new_Value_for_password = "Fiboo" + randomString_for_password + "@@": null
+
+10-08-2024T19:38:34 - [TEST_STEP][PASSED] - xpath_for_password = "//label[text()='Username']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']": null
+
+10-08-2024T19:38:34 - [TEST_STEP][PASSED] - inputField_for_password = TestObject().addProperty("xpath", EQUALS, xpath_for_password): null
+
+10-08-2024T19:38:34 - [TEST_STEP][PASSED] - executeJavaScript(
+    var element = document.evaluate("$xpath_for_password", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = '$new_Value_for_password';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    , null): Execute JavaScript '
+    var element = document.evaluate("//label[text()='Username']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = 'Fiboo8220@@';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    ' successfully
+
+10-08-2024T19:38:34 - [MESSAGE][PASSED] - Execute JavaScript '
+    var element = document.evaluate("//label[text()='Username']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = 'Fiboo8220@@';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    ' successfully
+
+10-08-2024T19:38:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+10-08-2024T19:38:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+10-08-2024T19:38:35 - [TEST_STEP][PASSED] - Password = getAttribute(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_username"), "value"): Attribute 'value' of object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_username' is: 'Fiboo8220@@'
+
+10-08-2024T19:38:35 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_username' is: 'Fiboo8220@@'
+
+10-08-2024T19:38:35 - [TEST_STEP][PASSED] - out.println(Password): null
+
+10-08-2024T19:38:35 - [TEST_STEP][PASSED] - new_Value_for_password_001 = Password: null
+
+10-08-2024T19:38:35 - [TEST_STEP][PASSED] - xpath_for_password_001 = "//label[text()='Password']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']": null
+
+10-08-2024T19:38:35 - [TEST_STEP][PASSED] - inputField_for_password_001 = TestObject().addProperty("xpath", EQUALS, xpath_for_password_001): null
+
+10-08-2024T19:38:35 - [TEST_STEP][PASSED] - executeJavaScript(
+    var element = document.evaluate("$xpath_for_password_001", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = '$new_Value_for_password_001';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    , null): Execute JavaScript '
+    var element = document.evaluate("//label[text()='Password']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = 'Fiboo8220@@';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    ' successfully
+
+10-08-2024T19:38:35 - [MESSAGE][PASSED] - Execute JavaScript '
+    var element = document.evaluate("//label[text()='Password']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = 'Fiboo8220@@';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    ' successfully
+
+10-08-2024T19:38:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+10-08-2024T19:38:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+10-08-2024T19:38:36 - [TEST_STEP][PASSED] - new_Value_for_password_002 = Password: null
+
+10-08-2024T19:38:36 - [TEST_STEP][PASSED] - xpath_for_password_002 = "//label[text()='Confirm Password']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']": null
+
+10-08-2024T19:38:36 - [TEST_STEP][PASSED] - inputField_for_password_002 = TestObject().addProperty("xpath", EQUALS, xpath_for_password_002): null
+
+10-08-2024T19:38:36 - [TEST_STEP][PASSED] - executeJavaScript(
+    var element = document.evaluate("$xpath_for_password_002", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = '$new_Value_for_password_002';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    , null): Execute JavaScript '
+    var element = document.evaluate("//label[text()='Confirm Password']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = 'Fiboo8220@@';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    ' successfully
+
+10-08-2024T19:38:36 - [MESSAGE][PASSED] - Execute JavaScript '
+    var element = document.evaluate("//label[text()='Confirm Password']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = 'Fiboo8220@@';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    ' successfully
+
+10-08-2024T19:38:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+10-08-2024T19:38:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+10-08-2024T19:38:37 - [TEST_STEP][PASSED] - randomString = RandomStringUtils.randomAlphabetic(6): null
+
+10-08-2024T19:38:37 - [TEST_STEP][PASSED] - newValue = "User_name_" + randomString: null
+
+10-08-2024T19:38:37 - [TEST_STEP][PASSED] - xpath_for_user_name = "//label[text()='Username']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']": null
+
+10-08-2024T19:38:37 - [TEST_STEP][PASSED] - inputField = TestObject().addProperty("xpath", EQUALS, xpath_for_user_name): null
+
+10-08-2024T19:38:37 - [TEST_STEP][PASSED] - executeJavaScript(
+    var element = document.evaluate("$xpath_for_user_name", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = '$newValue';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    , null): Execute JavaScript '
+    var element = document.evaluate("//label[text()='Username']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = 'User_name_FFtzea';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    ' successfully
+
+10-08-2024T19:38:37 - [MESSAGE][PASSED] - Execute JavaScript '
+    var element = document.evaluate("//label[text()='Username']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = 'User_name_FFtzea';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    ' successfully
+
+10-08-2024T19:38:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+10-08-2024T19:38:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+10-08-2024T19:38:38 - [TEST_STEP][PASSED] - User_name = getAttribute(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_username"), "value"): Attribute 'value' of object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_username' is: 'User_name_FFtzea'
+
+10-08-2024T19:38:38 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_username' is: 'User_name_FFtzea'
+
+10-08-2024T19:38:38 - [TEST_STEP][PASSED] - out.println(User_name): null
+
+10-08-2024T19:38:38 - [TEST_STEP][PASSED] - out.println(Password): null
+
+10-08-2024T19:38:38 - [TEST_STEP][PASSED] - First_name = getAttribute(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name"), "value"): Attribute 'value' of object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name' is: 'First_name_rGLrkE'
+
+10-08-2024T19:38:39 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name' is: 'First_name_rGLrkE'
+
+10-08-2024T19:38:39 - [TEST_STEP][PASSED] - out.println(First_name): null
+
+10-08-2024T19:38:39 - [TEST_STEP][PASSED] - Middle_name = getAttribute(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name"), "value"): Attribute 'value' of object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name' is: 'Middle_name_vKvpwO'
+
+10-08-2024T19:38:39 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name' is: 'Middle_name_vKvpwO'
+
+10-08-2024T19:38:39 - [TEST_STEP][PASSED] - out.println(Middle_name): null
+
+10-08-2024T19:38:39 - [TEST_STEP][PASSED] - Last_name = getAttribute(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name"), "value"): Attribute 'value' of object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name' is: 'Last_name_LndLtR'
+
+10-08-2024T19:38:39 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name' is: 'Last_name_LndLtR'
+
+10-08-2024T19:38:39 - [TEST_STEP][PASSED] - out.println(Last_name): null
+
+10-08-2024T19:38:39 - [TEST_STEP][PASSED] - employee_id = getAttribute(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_id"), "value"): Attribute 'value' of object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_id' is: '333434353'
+
+10-08-2024T19:38:40 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_id' is: '333434353'
+
+10-08-2024T19:38:40 - [TEST_STEP][PASSED] - out.println(employee_id): null
+
+10-08-2024T19:38:40 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+10-08-2024T19:38:44 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+10-08-2024T19:38:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_save_button")): Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_save_button' is clicked on
+
+10-08-2024T19:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_save_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/logout_testcase" time="15.661" classname="Test Cases/logout_testcase" status="PASSED">
+         <system-out><![CDATA[10-08-2024T19:38:44 - [TEST_CASE][PASSED] - Test Cases/logout_testcase: Test Cases/logout_testcase
+
+10-08-2024T19:38:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-08-2024T19:38:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-08-2024T19:38:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("logout_and_login_after_new_employee_added/userdropdown_for_logout_option"), 10): Object 'Object Repository/logout_and_login_after_new_employee_added/userdropdown_for_logout_option' is present
+
+10-08-2024T19:38:47 - [MESSAGE][PASSED] - Object 'Object Repository/logout_and_login_after_new_employee_added/userdropdown_for_logout_option' is present
+
+10-08-2024T19:38:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-08-2024T19:38:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-08-2024T19:38:50 - [TEST_STEP][PASSED] - click(findTestObject("logout_and_login_after_new_employee_added/userdropdown_for_logout_option")): Object: 'Object Repository/logout_and_login_after_new_employee_added/userdropdown_for_logout_option' is clicked on
+
+10-08-2024T19:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/logout_and_login_after_new_employee_added/userdropdown_for_logout_option' is clicked on
+
+10-08-2024T19:38:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-08-2024T19:38:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-08-2024T19:38:55 - [TEST_STEP][PASSED] - click(findTestObject("logout_and_login_after_new_employee_added/logout_option")): Object: 'Object Repository/logout_and_login_after_new_employee_added/logout_option' is clicked on
+
+10-08-2024T19:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/logout_and_login_after_new_employee_added/logout_option' is clicked on
+
+10-08-2024T19:38:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-08-2024T19:39:00 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_case_to_mail_new_employee_login_creds" time="7.316" classname="Test Cases/Test_case_to_mail_new_employee_login_creds" status="PASSED">
+         <system-out><![CDATA[10-08-2024T19:39:00 - [TEST_CASE][PASSED] - Test Cases/Test_case_to_mail_new_employee_login_creds: Test Cases/Test_case_to_mail_new_employee_login_creds
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - props = new java.util.Properties(): null
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - props.put("mail.smtp.host", "smtp-mail.outlook.com"): null
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - props.put("mail.smtp.port", "587"): null
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - props.put("mail.smtp.auth", "true"): null
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - props.put("mail.smtp.starttls.enable", "true"): null
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - emailUsername = user_name_for_sender: null
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - emailPassword = sender_password: null
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - session = Session.getInstance(props, new Script1723216286166$1(this, emailUsername, emailPassword)): null
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - try: null
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - message = new javax.mail.internet.MimeMessage(session): null
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - message.setFrom(new javax.mail.internet.InternetAddress(emailUsername)): null
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - message.setRecipients(TO, InternetAddress.parse(receiver_username)): null
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - message.setSubject("Automation Test Results"): null
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - emailBody = "
+Username: " + User_name + "
+Password: " + Password: null
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - message.setText(emailBody): null
+
+10-08-2024T19:39:00 - [TEST_STEP][PASSED] - Transport.send(message): null
+
+10-08-2024T19:39:03 - [TEST_STEP][PASSED] - return new javax.mail.PasswordAuthentication(emailUsername, emailPassword): null
+
+10-08-2024T19:39:07 - [TEST_STEP][PASSED] - println("Email sent successfully!"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test_case_to_reterive_the_login_creds_from_mail" time="15.656" classname="Test Cases/test_case_to_reterive_the_login_creds_from_mail" status="PASSED">
+         <system-out><![CDATA[10-08-2024T19:39:07 - [TEST_CASE][PASSED] - Test Cases/test_case_to_reterive_the_login_creds_from_mail: Test Cases/test_case_to_reterive_the_login_creds_from_mail
+
+10-08-2024T19:39:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-08-2024T19:39:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-08-2024T19:39:10 - [TEST_STEP][PASSED] - props = new java.util.Properties(): null
+
+10-08-2024T19:39:10 - [TEST_STEP][PASSED] - props.put("mail.store.protocol", "imaps"): null
+
+10-08-2024T19:39:10 - [TEST_STEP][PASSED] - props.put("mail.imaps.host", "imap.gmail.com"): null
+
+10-08-2024T19:39:10 - [TEST_STEP][PASSED] - props.put("mail.imaps.port", "993"): null
+
+10-08-2024T19:39:10 - [TEST_STEP][PASSED] - props.put("mail.imaps.ssl.enable", "true"): null
+
+10-08-2024T19:39:10 - [TEST_STEP][PASSED] - username = receiver_username: null
+
+10-08-2024T19:39:10 - [TEST_STEP][PASSED] - password = receiver_password: null
+
+10-08-2024T19:39:10 - [TEST_STEP][PASSED] - session = Session.getInstance(props, null): null
+
+10-08-2024T19:39:10 - [TEST_STEP][PASSED] - try: null
+
+10-08-2024T19:39:10 - [TEST_STEP][PASSED] - store = session.getStore("imaps"): null
+
+10-08-2024T19:39:10 - [TEST_STEP][PASSED] - store.connect(username, password): null
+
+10-08-2024T19:39:13 - [TEST_STEP][PASSED] - inbox = store.getFolder("INBOX"): null
+
+10-08-2024T19:39:13 - [TEST_STEP][PASSED] - inbox.open(READ_ONLY): null
+
+10-08-2024T19:39:13 - [TEST_STEP][PASSED] - cal = Calendar.getInstance(): null
+
+10-08-2024T19:39:13 - [TEST_STEP][PASSED] - cal.set(YEAR, 2024): null
+
+10-08-2024T19:39:13 - [TEST_STEP][PASSED] - cal.set(MONTH, AUGUST): null
+
+10-08-2024T19:39:13 - [TEST_STEP][PASSED] - cal.set(DAY_OF_MONTH, 9): null
+
+10-08-2024T19:39:13 - [TEST_STEP][PASSED] - cal.set(HOUR_OF_DAY, 0): null
+
+10-08-2024T19:39:13 - [TEST_STEP][PASSED] - cal.set(MINUTE, 0): null
+
+10-08-2024T19:39:13 - [TEST_STEP][PASSED] - cal.set(SECOND, 0): null
+
+10-08-2024T19:39:13 - [TEST_STEP][PASSED] - cal.set(MILLISECOND, 0): null
+
+10-08-2024T19:39:13 - [TEST_STEP][PASSED] - specificDate = cal.getTime(): null
+
+10-08-2024T19:39:13 - [TEST_STEP][PASSED] - newerThan = new javax.mail.search.SentDateTerm(javax.mail.search.SentDateTerm.GE, specificDate): null
+
+10-08-2024T19:39:13 - [TEST_STEP][PASSED] - unseenAndNewer = new javax.mail.search.AndTerm(new javax.mail.search.FlagTerm(new javax.mail.Flags(javax.mail.Flags$Flag.SEEN), false), newerThan): null
+
+10-08-2024T19:39:13 - [TEST_STEP][PASSED] - messages = inbox.search(unseenAndNewer): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - println("Total messages found: " + length): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - if (length > 0): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - for (javax.mail.Message message : messages): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:14 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:15 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:16 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:17 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:18 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:19 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:20 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - else: null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - println("No match for: " + email): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - froms = message.getFrom(): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - sender = froms[0].toString(): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - email = *<|>", "").trim(): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - println("Email sender: " + email): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - println("Full From field: " + sender): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - println("Subject: " + message.getSubject()): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - println("Sent Date: " + message.getSentDate()): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - println("Match found for: " + email): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - println("Content Type: " + message.getContentType()): null
+
+10-08-2024T19:39:21 - [TEST_STEP][PASSED] - content = message.getContent(): null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - textContent = "": null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - if (content instanceof java.lang.String): null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - textContent = content.toString(): null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - println("Extracted Content: " + textContent): null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - usernameMatcher = textContent =~ "Username:\s*(\S+)": null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - passwordMatcher = textContent =~ "Password:\s*(\S+)": null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - if (usernameMatcher.find() && passwordMatcher.find()): null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - extractedUsername = usernameMatcher.group(1): null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - extractedPassword = passwordMatcher.group(1): null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - println("Extracted Username: " + extractedUsername): null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - println("Extracted Password: " + extractedPassword): null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - extractedUsername = extractedUsername: null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - extractedPassword = extractedPassword: null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - break: null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - inbox.close(false): null
+
+10-08-2024T19:39:22 - [TEST_STEP][PASSED] - store.close(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login_using_new_creds" time="7.272" classname="Test Cases/login_using_new_creds" status="PASSED">
+         <system-out><![CDATA[10-08-2024T19:39:23 - [TEST_CASE][PASSED] - Test Cases/login_using_new_creds: Test Cases/login_using_new_creds
+
+10-08-2024T19:39:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-08-2024T19:39:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-08-2024T19:39:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page"), 10): Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page' is present
+
+10-08-2024T19:39:26 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page' is present
+
+10-08-2024T19:39:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page")): Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page' is clicked on
+
+10-08-2024T19:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page' is clicked on
+
+10-08-2024T19:39:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page"), extractedUsername): Text 'User_name_labZpu' is set on object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'
+
+10-08-2024T19:39:27 - [MESSAGE][PASSED] - Text 'User_name_labZpu' is set on object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'
+
+10-08-2024T19:39:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page"), 10): Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page' is present
+
+10-08-2024T19:39:27 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page' is present
+
+10-08-2024T19:39:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page")): Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page' is clicked on
+
+10-08-2024T19:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page' is clicked on
+
+10-08-2024T19:39:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page"), extractedPassword): Text 'Fiboo3469@@' is set on object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'
+
+10-08-2024T19:39:28 - [MESSAGE][PASSED] - Text 'Fiboo3469@@' is set on object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'
+
+10-08-2024T19:39:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page"), 10): Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page' is present
+
+10-08-2024T19:39:28 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page' is present
+
+10-08-2024T19:39:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page")): Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page' is clicked on
+
+10-08-2024T19:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test_case_to_verify_data" time="7.518" classname="Test Cases/test_case_to_verify_data" status="FAILED">
+         <failure type="FAILED" message="Test Cases/test_case_to_verify_data FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: first name is not same&#xa;	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)&#xa;	at test_case_to_verify_data.run(test_case_to_verify_data:46)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1723298859088.run(TempTestSuite1723298859088.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[10-08-2024T19:39:30 - [TEST_CASE][FAILED] - Test Cases/test_case_to_verify_data: Test Cases/test_case_to_verify_data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: first name is not same
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at test_case_to_verify_data.run(test_case_to_verify_data:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1723298859088.run(TempTestSuite1723298859088.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+10-08-2024T19:39:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-08-2024T19:39:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-08-2024T19:39:33 - [TEST_STEP][PASSED] - click(findTestObject("to_verify_data/myinfo_option_from_side_bar")): Object: 'Object Repository/to_verify_data/myinfo_option_from_side_bar' is clicked on
+
+10-08-2024T19:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/to_verify_data/myinfo_option_from_side_bar' is clicked on
+
+10-08-2024T19:39:34 - [TEST_STEP][PASSED] - First_name = getAttribute(findTestObject("Object Repository/to_verify_data/first_name_text_box"), "value"): Attribute 'value' of object 'Object Repository/to_verify_data/first_name_text_box' is: 'First_name_axUJha'
+
+10-08-2024T19:39:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/to_verify_data/first_name_text_box' is: 'First_name_axUJha'
+
+10-08-2024T19:39:36 - [TEST_STEP][PASSED] - out.println(First_name): null
+
+10-08-2024T19:39:36 - [TEST_STEP][PASSED] - Middle_name = getAttribute(findTestObject("Object Repository/to_verify_data/middle_name_text_box"), "value"): Attribute 'value' of object 'Object Repository/to_verify_data/middle_name_text_box' is: 'Middle_name_etsysj'
+
+10-08-2024T19:39:37 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/to_verify_data/middle_name_text_box' is: 'Middle_name_etsysj'
+
+10-08-2024T19:39:37 - [TEST_STEP][PASSED] - out.println(Middle_name): null
+
+10-08-2024T19:39:37 - [TEST_STEP][PASSED] - Last_name = getAttribute(findTestObject("Object Repository/to_verify_data/last_name_text_box"), "value"): Attribute 'value' of object 'Object Repository/to_verify_data/last_name_text_box' is: 'Last_name_fctSDO'
+
+10-08-2024T19:39:37 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/to_verify_data/last_name_text_box' is: 'Last_name_fctSDO'
+
+10-08-2024T19:39:37 - [TEST_STEP][PASSED] - out.println(Last_name): null
+
+10-08-2024T19:39:37 - [TEST_STEP][PASSED] - employee_id = getAttribute(findTestObject("Object Repository/to_verify_data/employee_id"), "value"): Attribute 'value' of object 'Object Repository/to_verify_data/employee_id' is: '333344212'
+
+10-08-2024T19:39:37 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/to_verify_data/employee_id' is: '333344212'
+
+10-08-2024T19:39:37 - [TEST_STEP][PASSED] - out.println(employee_id): null
+
+10-08-2024T19:39:37 - [TEST_STEP][PASSED] - if (First_name == First_name): null
+
+10-08-2024T19:39:37 - [TEST_STEP][FAILED] - else: first name is not same
+
+10-08-2024T19:39:37 - [TEST_STEP][FAILED] - markFailed("first name is not same"): first name is not same
+
+10-08-2024T19:39:37 - [MESSAGE][FAILED] - first name is not same
+
+10-08-2024T19:39:37 - [TEST_STEP][PASSED] - if (Middle_name == Middle_name): null
+
+10-08-2024T19:39:37 - [TEST_STEP][FAILED] - else: middle name is not same
+
+10-08-2024T19:39:37 - [TEST_STEP][FAILED] - markFailed("middle name is not same"): middle name is not same
+
+10-08-2024T19:39:37 - [MESSAGE][FAILED] - middle name is not same
+
+10-08-2024T19:39:37 - [TEST_STEP][PASSED] - if (Last_name == Last_name): null
+
+10-08-2024T19:39:37 - [TEST_STEP][FAILED] - else: last name is not same
+
+10-08-2024T19:39:37 - [TEST_STEP][FAILED] - markFailed("last name is not same"): last name is not same
+
+10-08-2024T19:39:37 - [MESSAGE][FAILED] - last name is not same
+
+10-08-2024T19:39:37 - [TEST_STEP][PASSED] - if (employee_id == employee_id): null
+
+10-08-2024T19:39:37 - [TEST_STEP][FAILED] - else: employee id is not same
+
+10-08-2024T19:39:37 - [TEST_STEP][FAILED] - markFailed("employee id is not same"): employee id is not same
+
+10-08-2024T19:39:37 - [MESSAGE][FAILED] - employee id is not same]]></system-out>
+         <system-err><![CDATA[10-08-2024T19:39:30 - [TEST_CASE][FAILED] - Test Cases/test_case_to_verify_data: Test Cases/test_case_to_verify_data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: first name is not same
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at test_case_to_verify_data.run(test_case_to_verify_data:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1723298859088.run(TempTestSuite1723298859088.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEST_CASE_TO_UPLOAD_PROFILE_PICTURE" time="3.151" classname="Test Cases/TEST_CASE_TO_UPLOAD_PROFILE_PICTURE" status="INCOMPLETE">
+         <system-out><![CDATA[10-08-2024T19:39:37 - [TEST_CASE][INCOMPLETE] - Test Cases/TEST_CASE_TO_UPLOAD_PROFILE_PICTURE: null
+
+10-08-2024T19:39:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-08-2024T19:39:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-08-2024T19:39:40 - [TEST_STEP][INCOMPLETE] - click(findTestObject("to_upload_profile_picture/employee_image_wrapper")): null]]></system-out>
+         <system-err><![CDATA[10-08-2024T19:39:37 - [TEST_CASE][INCOMPLETE] - Test Cases/TEST_CASE_TO_UPLOAD_PROFILE_PICTURE: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-08-2024T19:37:43 - [TEST_SUITE][INCOMPLETE] - test_suite_for_ornange_hrm_with_mail_automation: null]]></system-out>
+      <system-err><![CDATA[10-08-2024T19:37:43 - [TEST_SUITE][INCOMPLETE] - test_suite_for_ornange_hrm_with_mail_automation: null]]></system-err>
+   </testsuite>
+</testsuites>

@@ -44,4 +44,24 @@
       <initValue>''</initValue>
       <name>extractedPassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'aditya_T2_WORK@outlook.com'</initValue>
+      <name>user_name_for_sender</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Fiboo112358@@'</initValue>
+      <name>sender_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'aditya1993tue@gmail.com'</initValue>
+      <name>receiver_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ahum ufhk gxmm yuvy'</initValue>
+      <name>receiver_password</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

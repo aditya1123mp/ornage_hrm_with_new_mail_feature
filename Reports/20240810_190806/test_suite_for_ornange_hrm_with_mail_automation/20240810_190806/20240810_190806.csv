@@ -1,0 +1,186 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test_suite_for_ornange_hrm_with_mail_automation,Chrome 127.0.0.0,test_suite_for_ornange_hrm_with_mail_automation,,10-08-2024 19:08:10,10-08-2024 19:10:13,2m - 2.619s,PASSED
+,,,,,,,
+Test Cases/LOGIN_TEST_CASE_FOR_ORANGE_HRM,Chrome 127.0.0.0,LOGIN_TEST_CASE_FOR_ORANGE_HRM,,10-08-2024 19:08:10,10-08-2024 19:08:39,28.999s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,10-08-2024 19:08:10,10-08-2024 19:08:12,1.735s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,10-08-2024 19:08:12,10-08-2024 19:08:12,0.054s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,10-08-2024 19:08:12,10-08-2024 19:08:34,21.955s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page""), 10)",Chrome 127.0.0.0,,,10-08-2024 19:08:34,10-08-2024 19:08:36,1.485s,PASSED
+"click(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page""))",Chrome 127.0.0.0,,,10-08-2024 19:08:36,10-08-2024 19:08:36,0.457s,PASSED
+"setText(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page""), ""Admin"")",Chrome 127.0.0.0,,,10-08-2024 19:08:36,10-08-2024 19:08:37,0.822s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page""), 10)",Chrome 127.0.0.0,,,10-08-2024 19:08:37,10-08-2024 19:08:37,0.320s,PASSED
+"click(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page""))",Chrome 127.0.0.0,,,10-08-2024 19:08:37,10-08-2024 19:08:38,0.401s,PASSED
+"setText(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page""), ""admin123"")",Chrome 127.0.0.0,,,10-08-2024 19:08:38,10-08-2024 19:08:38,0.767s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page""), 0)",Chrome 127.0.0.0,,,10-08-2024 19:08:38,10-08-2024 19:08:39,0.340s,PASSED
+"click(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page""))",Chrome 127.0.0.0,,,10-08-2024 19:08:39,10-08-2024 19:08:39,0.403s,PASSED
+,,,,,,,
+Test Cases/ADDING_A_NEW_EMPLOYEE,Chrome 127.0.0.0,,,10-08-2024 19:08:39,10-08-2024 19:09:12,32.728s,PASSED
+"verifyElementPresent(findTestObject(""ADDING_A_NEW_EMPLOYEE/pim_option_from_side_bar""), 10)",Chrome 127.0.0.0,,,10-08-2024 19:08:39,10-08-2024 19:08:42,2.344s,PASSED
+"click(findTestObject(""ADDING_A_NEW_EMPLOYEE/pim_option_from_side_bar""))",Chrome 127.0.0.0,,,10-08-2024 19:08:42,10-08-2024 19:08:48,6.261s,PASSED
+"waitForElementPresent(findTestObject(""ADDING_A_NEW_EMPLOYEE/adding_new_employee_button_in_pim_page""), 10)",Chrome 127.0.0.0,,,10-08-2024 19:08:48,10-08-2024 19:08:50,2.079s,PASSED
+"click(findTestObject(""ADDING_A_NEW_EMPLOYEE/adding_new_employee_button_in_pim_page""))",Chrome 127.0.0.0,,,10-08-2024 19:08:50,10-08-2024 19:08:51,1.022s,PASSED
+"verifyElementPresent(findTestObject(""ADDING_A_NEW_EMPLOYEE/create_login_details_checkbox""), 10)",Chrome 127.0.0.0,,,10-08-2024 19:08:51,10-08-2024 19:08:52,0.983s,PASSED
+"click(findTestObject(""ADDING_A_NEW_EMPLOYEE/create_login_details_checkbox""))",Chrome 127.0.0.0,,,10-08-2024 19:08:52,10-08-2024 19:08:53,0.832s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_enabled_radio_button""), 10)",Chrome 127.0.0.0,,,10-08-2024 19:08:53,10-08-2024 19:08:53,0.536s,PASSED
+"click(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_enabled_radio_button""))",Chrome 127.0.0.0,,,10-08-2024 19:08:53,10-08-2024 19:08:54,0.390s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name""), 10)",Chrome 127.0.0.0,,,10-08-2024 19:08:54,10-08-2024 19:08:54,0.312s,PASSED
+"click(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name""))",Chrome 127.0.0.0,,,10-08-2024 19:08:54,10-08-2024 19:08:55,0.365s,PASSED
+"setText(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name""), ""First_name_"" + RandomStringUtils.randomAlphabetic(6))",Chrome 127.0.0.0,,,10-08-2024 19:08:55,10-08-2024 19:08:55,0.670s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name""), 10)",Chrome 127.0.0.0,,,10-08-2024 19:08:55,10-08-2024 19:08:55,0.296s,PASSED
+"click(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name""))",Chrome 127.0.0.0,,,10-08-2024 19:08:55,10-08-2024 19:08:56,0.371s,PASSED
+"setText(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name""), ""Middle_name_"" + RandomStringUtils.randomAlphabetic(6))",Chrome 127.0.0.0,,,10-08-2024 19:08:56,10-08-2024 19:08:56,0.617s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name""), 10)",Chrome 127.0.0.0,,,10-08-2024 19:08:56,10-08-2024 19:08:57,0.286s,PASSED
+"click(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name""))",Chrome 127.0.0.0,,,10-08-2024 19:08:57,10-08-2024 19:08:57,0.367s,PASSED
+"setText(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name""), ""Last_name_"" + RandomStringUtils.randomAlphabetic(6))",Chrome 127.0.0.0,,,10-08-2024 19:08:57,10-08-2024 19:08:58,0.703s,PASSED
+randomString_001 = RandomStringUtils.randomNumeric(6),Chrome 127.0.0.0,,,10-08-2024 19:08:58,10-08-2024 19:08:58,0.003s,PASSED
+"newValue_001 = ""333"" + randomString_001",Chrome 127.0.0.0,,,10-08-2024 19:08:58,10-08-2024 19:08:58,0.004s,PASSED
+"xpath_for_employee_id = ""//label[text()='Employee Id']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']""",Chrome 127.0.0.0,,,10-08-2024 19:08:58,10-08-2024 19:08:58,0.001s,PASSED
+"inputField_001 = TestObject().addProperty(""xpath"", EQUALS, xpath_for_employee_id)",Chrome 127.0.0.0,,,10-08-2024 19:08:58,10-08-2024 19:08:58,0.025s,PASSED
+"executeJavaScript(
+    var element = document.evaluate(""$xpath_for_employee_id"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = '$newValue_001';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    , null)",Chrome 127.0.0.0,,,10-08-2024 19:08:58,10-08-2024 19:08:58,0.115s,PASSED
+delay(3),Chrome 127.0.0.0,,,10-08-2024 19:08:58,10-08-2024 19:09:01,3.039s,PASSED
+randomString_for_password = RandomStringUtils.randomNumeric(4),Chrome 127.0.0.0,,,10-08-2024 19:09:01,10-08-2024 19:09:01,0.006s,PASSED
+"new_Value_for_password = ""Fiboo"" + randomString_for_password + ""@@""",Chrome 127.0.0.0,,,10-08-2024 19:09:01,10-08-2024 19:09:01,0.003s,PASSED
+"xpath_for_password = ""//label[text()='Username']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']""",Chrome 127.0.0.0,,,10-08-2024 19:09:01,10-08-2024 19:09:01,0.002s,PASSED
+"inputField_for_password = TestObject().addProperty(""xpath"", EQUALS, xpath_for_password)",Chrome 127.0.0.0,,,10-08-2024 19:09:01,10-08-2024 19:09:01,0.002s,PASSED
+"executeJavaScript(
+    var element = document.evaluate(""$xpath_for_password"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = '$new_Value_for_password';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    , null)",Chrome 127.0.0.0,,,10-08-2024 19:09:01,10-08-2024 19:09:01,0.020s,PASSED
+delay(1),Chrome 127.0.0.0,,,10-08-2024 19:09:01,10-08-2024 19:09:02,1.020s,PASSED
+"Password = getAttribute(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_username""), ""value"")",Chrome 127.0.0.0,,,10-08-2024 19:09:02,10-08-2024 19:09:03,0.436s,PASSED
+out.println(Password),Chrome 127.0.0.0,,,10-08-2024 19:09:03,10-08-2024 19:09:03,0.024s,PASSED
+new_Value_for_password_001 = Password,Chrome 127.0.0.0,,,10-08-2024 19:09:03,10-08-2024 19:09:03,0.002s,PASSED
+"xpath_for_password_001 = ""//label[text()='Password']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']""",Chrome 127.0.0.0,,,10-08-2024 19:09:03,10-08-2024 19:09:03,0.002s,PASSED
+"inputField_for_password_001 = TestObject().addProperty(""xpath"", EQUALS, xpath_for_password_001)",Chrome 127.0.0.0,,,10-08-2024 19:09:03,10-08-2024 19:09:03,0.003s,PASSED
+"executeJavaScript(
+    var element = document.evaluate(""$xpath_for_password_001"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = '$new_Value_for_password_001';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    , null)",Chrome 127.0.0.0,,,10-08-2024 19:09:03,10-08-2024 19:09:03,0.023s,PASSED
+delay(1),Chrome 127.0.0.0,,,10-08-2024 19:09:03,10-08-2024 19:09:04,1.015s,PASSED
+new_Value_for_password_002 = Password,Chrome 127.0.0.0,,,10-08-2024 19:09:04,10-08-2024 19:09:04,0.002s,PASSED
+"xpath_for_password_002 = ""//label[text()='Confirm Password']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']""",Chrome 127.0.0.0,,,10-08-2024 19:09:04,10-08-2024 19:09:04,0.003s,PASSED
+"inputField_for_password_002 = TestObject().addProperty(""xpath"", EQUALS, xpath_for_password_002)",Chrome 127.0.0.0,,,10-08-2024 19:09:04,10-08-2024 19:09:04,0.002s,PASSED
+"executeJavaScript(
+    var element = document.evaluate(""$xpath_for_password_002"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = '$new_Value_for_password_002';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    , null)",Chrome 127.0.0.0,,,10-08-2024 19:09:04,10-08-2024 19:09:04,0.026s,PASSED
+delay(1),Chrome 127.0.0.0,,,10-08-2024 19:09:04,10-08-2024 19:09:05,1.008s,PASSED
+randomString = RandomStringUtils.randomAlphabetic(6),Chrome 127.0.0.0,,,10-08-2024 19:09:05,10-08-2024 19:09:05,0.003s,PASSED
+"newValue = ""User_name_"" + randomString",Chrome 127.0.0.0,,,10-08-2024 19:09:05,10-08-2024 19:09:05,0.002s,PASSED
+"xpath_for_user_name = ""//label[text()='Username']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div//input[@class='oxd-input oxd-input--active']""",Chrome 127.0.0.0,,,10-08-2024 19:09:05,10-08-2024 19:09:05,0.002s,PASSED
+"inputField = TestObject().addProperty(""xpath"", EQUALS, xpath_for_user_name)",Chrome 127.0.0.0,,,10-08-2024 19:09:05,10-08-2024 19:09:05,0.003s,PASSED
+"executeJavaScript(
+    var element = document.evaluate(""$xpath_for_user_name"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    if (element) {
+        element.value = '$newValue';
+        var event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+    }
+    , null)",Chrome 127.0.0.0,,,10-08-2024 19:09:05,10-08-2024 19:09:05,0.026s,PASSED
+delay(1),Chrome 127.0.0.0,,,10-08-2024 19:09:05,10-08-2024 19:09:06,1.018s,PASSED
+"User_name = getAttribute(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_username""), ""value"")",Chrome 127.0.0.0,,,10-08-2024 19:09:06,10-08-2024 19:09:06,0.330s,PASSED
+out.println(User_name),Chrome 127.0.0.0,,,10-08-2024 19:09:06,10-08-2024 19:09:06,0.001s,PASSED
+out.println(Password),Chrome 127.0.0.0,,,10-08-2024 19:09:06,10-08-2024 19:09:06,0.002s,PASSED
+"First_name = getAttribute(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name""), ""value"")",Chrome 127.0.0.0,,,10-08-2024 19:09:06,10-08-2024 19:09:06,0.346s,PASSED
+out.println(First_name),Chrome 127.0.0.0,,,10-08-2024 19:09:06,10-08-2024 19:09:06,0.001s,PASSED
+"Middle_name = getAttribute(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name""), ""value"")",Chrome 127.0.0.0,,,10-08-2024 19:09:06,10-08-2024 19:09:07,0.305s,PASSED
+out.println(Middle_name),Chrome 127.0.0.0,,,10-08-2024 19:09:07,10-08-2024 19:09:07,0.002s,PASSED
+"Last_name = getAttribute(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name""), ""value"")",Chrome 127.0.0.0,,,10-08-2024 19:09:07,10-08-2024 19:09:07,0.364s,PASSED
+out.println(Last_name),Chrome 127.0.0.0,,,10-08-2024 19:09:07,10-08-2024 19:09:07,0.002s,PASSED
+"employee_id = getAttribute(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_id""), ""value"")",Chrome 127.0.0.0,,,10-08-2024 19:09:07,10-08-2024 19:09:07,0.324s,PASSED
+out.println(employee_id),Chrome 127.0.0.0,,,10-08-2024 19:09:07,10-08-2024 19:09:07,0.001s,PASSED
+delay(4),Chrome 127.0.0.0,,,10-08-2024 19:09:07,10-08-2024 19:09:11,4.017s,PASSED
+"click(findTestObject(""Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_save_button""))",Chrome 127.0.0.0,,,10-08-2024 19:09:11,10-08-2024 19:09:12,0.426s,PASSED
+,,,,,,,
+Test Cases/logout_testcase,Chrome 127.0.0.0,,,10-08-2024 19:09:12,10-08-2024 19:09:27,15.302s,PASSED
+delay(3),Chrome 127.0.0.0,,,10-08-2024 19:09:12,10-08-2024 19:09:15,3.008s,PASSED
+"verifyElementPresent(findTestObject(""logout_and_login_after_new_employee_added/userdropdown_for_logout_option""), 10)",Chrome 127.0.0.0,,,10-08-2024 19:09:15,10-08-2024 19:09:15,0.322s,PASSED
+delay(3),Chrome 127.0.0.0,,,10-08-2024 19:09:15,10-08-2024 19:09:18,3.019s,PASSED
+"click(findTestObject(""logout_and_login_after_new_employee_added/userdropdown_for_logout_option""))",Chrome 127.0.0.0,,,10-08-2024 19:09:18,10-08-2024 19:09:20,1.516s,PASSED
+delay(3),Chrome 127.0.0.0,,,10-08-2024 19:09:20,10-08-2024 19:09:23,3.013s,PASSED
+"click(findTestObject(""logout_and_login_after_new_employee_added/logout_option""))",Chrome 127.0.0.0,,,10-08-2024 19:09:23,10-08-2024 19:09:24,1.315s,PASSED
+delay(3),Chrome 127.0.0.0,,,10-08-2024 19:09:24,10-08-2024 19:09:27,3.004s,PASSED
+,,,,,,,
+Test Cases/Test_case_to_mail_new_employee_login_creds,Chrome 127.0.0.0,a mail will send the new employee login creds,,10-08-2024 19:09:27,10-08-2024 19:09:33,6.204s,PASSED
+props = new java.util.Properties(),Chrome 127.0.0.0,,,10-08-2024 19:09:28,10-08-2024 19:09:28,0.016s,PASSED
+"props.put(""mail.smtp.host"", ""smtp-mail.outlook.com"")",Chrome 127.0.0.0,,,10-08-2024 19:09:28,10-08-2024 19:09:28,0.003s,PASSED
+"props.put(""mail.smtp.port"", ""587"")",Chrome 127.0.0.0,,,10-08-2024 19:09:28,10-08-2024 19:09:28,0.002s,PASSED
+"props.put(""mail.smtp.auth"", ""true"")",Chrome 127.0.0.0,,,10-08-2024 19:09:28,10-08-2024 19:09:28,0.001s,PASSED
+"props.put(""mail.smtp.starttls.enable"", ""true"")",Chrome 127.0.0.0,,,10-08-2024 19:09:28,10-08-2024 19:09:28,0.001s,PASSED
+"emailUsername = ""aditya_T2_WORK@outlook.com""",Chrome 127.0.0.0,,,10-08-2024 19:09:28,10-08-2024 19:09:28,0.002s,PASSED
+"emailPassword = ""Fiboo112358@@""",Chrome 127.0.0.0,,,10-08-2024 19:09:28,10-08-2024 19:09:28,0.002s,PASSED
+"session = Session.getInstance(props, new Script1723216286166$1(this, emailUsername, emailPassword))",Chrome 127.0.0.0,,,10-08-2024 19:09:28,10-08-2024 19:09:28,0.040s,PASSED
+try,Chrome 127.0.0.0,,,10-08-2024 19:09:28,10-08-2024 19:09:29,1.402s,PASSED
+"return new javax.mail.PasswordAuthentication(emailUsername, emailPassword)",Chrome 127.0.0.0,,,10-08-2024 19:09:29,10-08-2024 19:09:33,4.237s,PASSED
+,,,,,,,
+Test Cases/test_case_to_reterive_the_login_creds_from_mail,Chrome 127.0.0.0,theis test will allow the user to reterve login creds from the mail so that user can login with new creds,,10-08-2024 19:09:33,10-08-2024 19:09:49,15.784s,PASSED
+delay(3),Chrome 127.0.0.0,,,10-08-2024 19:09:34,10-08-2024 19:09:37,3.014s,PASSED
+props = new java.util.Properties(),Chrome 127.0.0.0,,,10-08-2024 19:09:37,10-08-2024 19:09:37,0.001s,PASSED
+"props.put(""mail.store.protocol"", ""imaps"")",Chrome 127.0.0.0,,,10-08-2024 19:09:37,10-08-2024 19:09:37,0.003s,PASSED
+"props.put(""mail.imaps.host"", ""imap.gmail.com"")",Chrome 127.0.0.0,,,10-08-2024 19:09:37,10-08-2024 19:09:37,0.002s,PASSED
+"props.put(""mail.imaps.port"", ""993"")",Chrome 127.0.0.0,,,10-08-2024 19:09:37,10-08-2024 19:09:37,0.001s,PASSED
+"props.put(""mail.imaps.ssl.enable"", ""true"")",Chrome 127.0.0.0,,,10-08-2024 19:09:37,10-08-2024 19:09:37,0.002s,PASSED
+"username = ""aditya1993tue@gmail.com""",Chrome 127.0.0.0,,,10-08-2024 19:09:37,10-08-2024 19:09:37,0.003s,PASSED
+"password = ""ahum ufhk gxmm yuvy""",Chrome 127.0.0.0,,,10-08-2024 19:09:37,10-08-2024 19:09:37,0.001s,PASSED
+"session = Session.getInstance(props, null)",Chrome 127.0.0.0,,,10-08-2024 19:09:37,10-08-2024 19:09:37,0.004s,PASSED
+try,Chrome 127.0.0.0,,,10-08-2024 19:09:37,10-08-2024 19:09:49,12.166s,PASSED
+,,,,,,,
+Test Cases/login_using_new_creds,Chrome 127.0.0.0,,,10-08-2024 19:09:49,10-08-2024 19:09:56,6.924s,PASSED
+delay(3),Chrome 127.0.0.0,,,10-08-2024 19:09:49,10-08-2024 19:09:52,3.010s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page""), 10)",Chrome 127.0.0.0,,,10-08-2024 19:09:52,10-08-2024 19:09:53,0.321s,PASSED
+"click(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page""))",Chrome 127.0.0.0,,,10-08-2024 19:09:53,10-08-2024 19:09:53,0.428s,PASSED
+"setText(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page""), extractedUsername)",Chrome 127.0.0.0,,,10-08-2024 19:09:53,10-08-2024 19:09:54,0.834s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page""), 10)",Chrome 127.0.0.0,,,10-08-2024 19:09:54,10-08-2024 19:09:54,0.323s,PASSED
+"click(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page""))",Chrome 127.0.0.0,,,10-08-2024 19:09:54,10-08-2024 19:09:55,0.414s,PASSED
+"setText(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page""), extractedPassword)",Chrome 127.0.0.0,,,10-08-2024 19:09:55,10-08-2024 19:09:55,0.792s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page""), 10)",Chrome 127.0.0.0,,,10-08-2024 19:09:55,10-08-2024 19:09:56,0.307s,PASSED
+"click(findTestObject(""Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page""))",Chrome 127.0.0.0,,,10-08-2024 19:09:56,10-08-2024 19:09:56,0.419s,PASSED
+,,,,,,,
+Test Cases/test_case_to_verify_data,Chrome 127.0.0.0,,,10-08-2024 19:09:56,10-08-2024 19:10:04,7.937s,PASSED
+delay(3),Chrome 127.0.0.0,,,10-08-2024 19:09:56,10-08-2024 19:09:59,3.011s,PASSED
+"click(findTestObject(""to_verify_data/myinfo_option_from_side_bar""))",Chrome 127.0.0.0,,,10-08-2024 19:09:59,10-08-2024 19:10:01,1.724s,PASSED
+"First_name = getAttribute(findTestObject(""Object Repository/to_verify_data/first_name_text_box""), ""value"")",Chrome 127.0.0.0,,,10-08-2024 19:10:01,10-08-2024 19:10:03,1.977s,PASSED
+out.println(First_name),Chrome 127.0.0.0,,,10-08-2024 19:10:03,10-08-2024 19:10:03,0.001s,PASSED
+"Middle_name = getAttribute(findTestObject(""Object Repository/to_verify_data/middle_name_text_box""), ""value"")",Chrome 127.0.0.0,,,10-08-2024 19:10:03,10-08-2024 19:10:03,0.337s,PASSED
+out.println(Middle_name),Chrome 127.0.0.0,,,10-08-2024 19:10:03,10-08-2024 19:10:03,0.001s,PASSED
+"Last_name = getAttribute(findTestObject(""Object Repository/to_verify_data/last_name_text_box""), ""value"")",Chrome 127.0.0.0,,,10-08-2024 19:10:03,10-08-2024 19:10:04,0.348s,PASSED
+out.println(Last_name),Chrome 127.0.0.0,,,10-08-2024 19:10:04,10-08-2024 19:10:04,0.001s,PASSED
+"employee_id = getAttribute(findTestObject(""Object Repository/to_verify_data/employee_id""), ""value"")",Chrome 127.0.0.0,,,10-08-2024 19:10:04,10-08-2024 19:10:04,0.350s,PASSED
+out.println(employee_id),Chrome 127.0.0.0,,,10-08-2024 19:10:04,10-08-2024 19:10:04,0.001s,PASSED
+if (First_name == First_name),Chrome 127.0.0.0,,,10-08-2024 19:10:04,10-08-2024 19:10:04,0.018s,PASSED
+if (Middle_name == Middle_name),Chrome 127.0.0.0,,,10-08-2024 19:10:04,10-08-2024 19:10:04,0.003s,PASSED
+if (Last_name == Last_name),Chrome 127.0.0.0,,,10-08-2024 19:10:04,10-08-2024 19:10:04,0.002s,PASSED
+if (employee_id == employee_id),Chrome 127.0.0.0,,,10-08-2024 19:10:04,10-08-2024 19:10:04,0.004s,PASSED
+,,,,,,,
+Test Cases/TEST_CASE_TO_UPLOAD_PROFILE_PICTURE,Chrome 127.0.0.0,,,10-08-2024 19:10:04,10-08-2024 19:10:13,8.528s,PASSED
+delay(3),Chrome 127.0.0.0,,,10-08-2024 19:10:04,10-08-2024 19:10:07,3.010s,PASSED
+"click(findTestObject(""to_upload_profile_picture/employee_image_wrapper""))",Chrome 127.0.0.0,,,10-08-2024 19:10:07,10-08-2024 19:10:08,0.943s,PASSED
+delay(1),Chrome 127.0.0.0,,,10-08-2024 19:10:08,10-08-2024 19:10:09,1.012s,PASSED
+driver = getWebDriver(),Chrome 127.0.0.0,,,10-08-2024 19:10:09,10-08-2024 19:10:09,0.001s,PASSED
+"wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, 10)",Chrome 127.0.0.0,,,10-08-2024 19:10:09,10-08-2024 19:10:09,0.020s,PASSED
+"fileInput = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(""input[type=""file""]"")))",Chrome 127.0.0.0,,,10-08-2024 19:10:09,10-08-2024 19:10:09,0.319s,PASSED
+"driver.executeScript(""arguments[0].style.display = 'block';"", fileInput)",Chrome 127.0.0.0,,,10-08-2024 19:10:09,10-08-2024 19:10:09,0.042s,PASSED
+"filePath = ""C:\Users\DELL\OneDrive\Desktop\profile_picture.jpg""",Chrome 127.0.0.0,,,10-08-2024 19:10:09,10-08-2024 19:10:09,0.000s,PASSED
+fileInput.sendKeys(filePath),Chrome 127.0.0.0,,,10-08-2024 19:10:09,10-08-2024 19:10:10,0.050s,PASSED
+"click(findTestObject(""Object Repository/to_upload_profile_picture/save_button""))",Chrome 127.0.0.0,,,10-08-2024 19:10:10,10-08-2024 19:10:10,0.431s,PASSED
+delay(1),Chrome 127.0.0.0,,,10-08-2024 19:10:10,10-08-2024 19:10:11,1.017s,PASSED
+"click(findTestObject(""to_verify_data/myinfo_option_from_side_bar""))",Chrome 127.0.0.0,,,10-08-2024 19:10:11,10-08-2024 19:10:13,1.528s,PASSED

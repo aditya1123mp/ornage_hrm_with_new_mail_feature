@@ -44,7 +44,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/ADDING_A_NEW_EMPLOY
 WebUI.click(findTestObject('Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name'))
 
 WebUI.setText(findTestObject('Object Repository/ADDING_A_NEW_EMPLOYEE/Add_Employee_first_name'), 'First_name_' + RandomStringUtils.randomAlphabetic(
-	6))
+	7))
 
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name'), 10)
@@ -52,7 +52,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/ADDING_A_NEW_EMPLOY
 WebUI.click(findTestObject('Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name'))
 
 WebUI.setText(findTestObject('Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_middle_name'), 'Middle_name_' + RandomStringUtils.randomAlphabetic(
-	6))
+	7))
 
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name'), 10)
@@ -60,7 +60,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/ADDING_A_NEW_EMPLOY
 WebUI.click(findTestObject('Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name'))
 
 WebUI.setText(findTestObject('Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_last_name'), 'Last_name_' + RandomStringUtils.randomAlphabetic(
-	6))
+	7))
 
 
 //WebUI.verifyElementPresent(findTestObject('Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_id'), 10)
@@ -103,7 +103,7 @@ WebUI.delay(3)
 //WebUI.setText(findTestObject('Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_username'), 'Fiboo' + RandomStringUtils.randomNumeric(4) + '@@')
 
 // Generate the random string for user id
-String randomString_for_password = RandomStringUtils.randomNumeric(4)
+String randomString_for_password = RandomStringUtils.randomNumeric(6)
 String new_Value_for_password = "Fiboo" + randomString_for_password + '@@'
 
 // Define the XPath
@@ -202,7 +202,7 @@ WebUI.delay(1)
 
 
 // Generate the random string for user id
-String randomString = RandomStringUtils.randomAlphabetic(6)
+String randomString = RandomStringUtils.randomAlphabetic(7)
 String newValue = "User_name_" + randomString
 
 // Define the XPath
@@ -255,6 +255,8 @@ GlobalVariable.employee_id = WebUI.getAttribute(findTestObject('Object Repositor
 
 System.out.println(GlobalVariable.employee_id)
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/ADDING_A_NEW_EMPLOYEE/Add_employee_save_button'))
+
+WebUI.delay(2)
