@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test_suite_for_excel_automation" time="23.605" tests="1" failures="0" errors="0">
+   <testsuite name="test_suite_for_excel_automation" tests="1" failures="0" errors="0" time="23.605" skipped="0" timestamp="12-08-2024T15:39:37" hostname="DELL - host.docker.internal" id="Test Suites/test_suite_for_excel_automation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\DELL\\git\\excel_automation\\Reports\\20240812_153933\\test_suite_for_excel_automation\\20240812_153933"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\git\\excel_automation\\Reports\\20240812_153933\\test_suite_for_excel_automation\\20240812_153933\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - host.docker.internal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.31.251"/>
+         <property name="sessionId" value="0919448d34332ebedc6792b144d681e9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/test_case_for_excel_automation" time="23.425" classname="Test Cases/test_case_for_excel_automation" status="INCOMPLETE">
+         <system-out><![CDATA[12-08-2024T15:39:37 - [TEST_CASE][INCOMPLETE] - Test Cases/test_case_for_excel_automation: null
+
+12-08-2024T15:39:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LOGIN_TEST_CASE_FOR_ORANGE_HRM"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LOGIN_TEST_CASE_FOR_ORANGE_HRM' successfully
+
+12-08-2024T15:39:38 - [TEST_CASE][PASSED] - Test Cases/LOGIN_TEST_CASE_FOR_ORANGE_HRM: Test Cases/LOGIN_TEST_CASE_FOR_ORANGE_HRM
+
+12-08-2024T15:39:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-08-2024T15:39:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-08-2024T15:39:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-08-2024T15:39:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-08-2024T15:39:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-08-2024T15:39:40 - [MESSAGE][PASSED] - Current window maximized
+
+12-08-2024T15:39:40 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+12-08-2024T15:39:54 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+12-08-2024T15:39:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page"), 10): Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page' is present
+
+12-08-2024T15:39:55 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page' is present
+
+12-08-2024T15:39:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page")): Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page' is clicked on
+
+12-08-2024T15:39:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page' is clicked on
+
+12-08-2024T15:39:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page"), "Admin"): Text 'Admin' is set on object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'
+
+12-08-2024T15:39:56 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'
+
+12-08-2024T15:39:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page"), 10): Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page' is present
+
+12-08-2024T15:39:56 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page' is present
+
+12-08-2024T15:39:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page")): Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page' is clicked on
+
+12-08-2024T15:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page' is clicked on
+
+12-08-2024T15:39:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page"), "admin123"): Text 'admin123' is set on object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'
+
+12-08-2024T15:39:57 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'
+
+12-08-2024T15:39:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page"), 0): Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page' is present
+
+12-08-2024T15:39:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-08-2024T15:39:57 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page' is present
+
+12-08-2024T15:39:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page")): Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page' is clicked on
+
+12-08-2024T15:39:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page' is clicked on
+
+12-08-2024T15:39:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN_TEST_CASE_FOR_ORANGE_HRM' successfully
+
+12-08-2024T15:39:57 - [TEST_STEP][PASSED] - excelFilePath = "C:\Users\DELL\OneDrive\Desktop\mail\add_employee_data.xlsx": null
+
+12-08-2024T15:39:57 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+12-08-2024T15:39:57 - [TEST_STEP][PASSED] - file = new java.io.File(excelFilePath): null
+
+12-08-2024T15:39:57 - [TEST_STEP][PASSED] - workbook = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+12-08-2024T15:39:57 - [TEST_STEP][PASSED] - sheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+12-08-2024T15:39:57 - [TEST_STEP][PASSED] - if (!(file.exists())): null
+
+12-08-2024T15:39:57 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(file): null
+
+12-08-2024T15:39:57 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fis): null
+
+12-08-2024T15:39:58 - [TEST_STEP][PASSED] - sheet = workbook.getSheet(sheetName): null
+
+12-08-2024T15:39:58 - [TEST_STEP][PASSED] - if (sheet == null): null
+
+12-08-2024T15:39:58 - [TEST_STEP][PASSED] - if (sheet.getPhysicalNumberOfRows() == 0): null
+
+12-08-2024T15:39:58 - [TEST_STEP][PASSED] - headerRow = sheet.createRow(0): null
+
+12-08-2024T15:39:58 - [TEST_STEP][PASSED] - createCell(0).setCellValue("First_name"): null
+
+12-08-2024T15:39:58 - [TEST_STEP][PASSED] - createCell(1).setCellValue("Middle_name"): null
+
+12-08-2024T15:39:58 - [TEST_STEP][PASSED] - createCell(2).setCellValue("Last_name"): null
+
+12-08-2024T15:39:58 - [TEST_STEP][PASSED] - createCell(3).setCellValue("Username"): null
+
+12-08-2024T15:39:58 - [TEST_STEP][PASSED] - createCell(4).setCellValue("Password"): null
+
+12-08-2024T15:39:58 - [TEST_STEP][PASSED] - createCell(5).setCellValue("Employee_id"): null
+
+12-08-2024T15:39:58 - [TEST_STEP][PASSED] - loopCount = Integer.parseInt(RandomStringUtils.randomNumeric(2)) % 11 + 15: null
+
+12-08-2024T15:39:58 - [TEST_STEP][INCOMPLETE] - for ([i = 1, i <= loopCount, (i++)]): null
+
+12-08-2024T15:39:58 - [TEST_STEP][INCOMPLETE] - callTestCase(findTestCase("ADDING_A_NEW_EMPLOYEE"), [:], STOP_ON_FAILURE): null
+
+12-08-2024T15:39:58 - [TEST_CASE][INCOMPLETE] - Test Cases/ADDING_A_NEW_EMPLOYEE: null
+
+12-08-2024T15:39:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADDING_A_NEW_EMPLOYEE/pim_option_from_side_bar"), 10): Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/pim_option_from_side_bar' is present
+
+12-08-2024T15:40:00 - [MESSAGE][PASSED] - Object 'Object Repository/ADDING_A_NEW_EMPLOYEE/pim_option_from_side_bar' is present
+
+12-08-2024T15:40:00 - [TEST_STEP][INCOMPLETE] - click(findTestObject("ADDING_A_NEW_EMPLOYEE/pim_option_from_side_bar")): null]]></system-out>
+         <system-err><![CDATA[12-08-2024T15:39:37 - [TEST_CASE][INCOMPLETE] - Test Cases/test_case_for_excel_automation: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-08-2024T15:39:37 - [TEST_SUITE][INCOMPLETE] - test_suite_for_excel_automation: null]]></system-out>
+      <system-err><![CDATA[12-08-2024T15:39:37 - [TEST_SUITE][INCOMPLETE] - test_suite_for_excel_automation: null]]></system-err>
+   </testsuite>
+</testsuites>

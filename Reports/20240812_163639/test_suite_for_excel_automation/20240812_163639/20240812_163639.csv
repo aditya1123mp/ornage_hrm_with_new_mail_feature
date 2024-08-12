@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test_suite_for_excel_automation,Chrome 127.0.0.0,test_suite_for_excel_automation,,12-08-2024 16:36:42,12-08-2024 16:57:44,21m - 1.158s,PASSED
+,,,,,,,
+Test Cases/test_case_for_excel_automation,Chrome 127.0.0.0,,,12-08-2024 16:36:43,12-08-2024 16:57:44,21m - 0.968s,PASSED
+"callTestCase(findTestCase(""LOGIN_TEST_CASE_FOR_ORANGE_HRM""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,12-08-2024 16:36:43,12-08-2024 16:37:21,37.329s,PASSED
+"excelFilePath = ""C:\Users\DELL\OneDrive\Desktop\mail\add_employee_data.xlsx""",Chrome 127.0.0.0,,,12-08-2024 16:37:21,12-08-2024 16:37:21,0.002s,PASSED
+"sheetName = ""Sheet1""",Chrome 127.0.0.0,,,12-08-2024 16:37:21,12-08-2024 16:37:21,0.002s,PASSED
+file = new java.io.File(excelFilePath),Chrome 127.0.0.0,,,12-08-2024 16:37:21,12-08-2024 16:37:21,0.006s,PASSED
+workbook = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,12-08-2024 16:37:21,12-08-2024 16:37:21,0.002s,PASSED
+sheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,12-08-2024 16:37:21,12-08-2024 16:37:21,0.003s,PASSED
+if (!(file.exists())),Chrome 127.0.0.0,,,12-08-2024 16:37:21,12-08-2024 16:37:21,0.020s,PASSED
+fis = new java.io.FileInputStream(file),Chrome 127.0.0.0,,,12-08-2024 16:37:21,12-08-2024 16:37:21,0.015s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fis),Chrome 127.0.0.0,,,12-08-2024 16:37:21,12-08-2024 16:37:22,0.882s,PASSED
+sheet = workbook.getSheet(sheetName),Chrome 127.0.0.0,,,12-08-2024 16:37:22,12-08-2024 16:37:22,0.011s,PASSED
+if (sheet == null),Chrome 127.0.0.0,,,12-08-2024 16:37:22,12-08-2024 16:37:22,0.020s,PASSED
+if (sheet.getPhysicalNumberOfRows() == 0),Chrome 127.0.0.0,,,12-08-2024 16:37:22,12-08-2024 16:37:22,0.232s,PASSED
+loopCount = Integer.parseInt(RandomStringUtils.randomNumeric(2)) % 11 + 15,Chrome 127.0.0.0,,,12-08-2024 16:37:22,12-08-2024 16:37:22,0.047s,PASSED
+"for ([i = 1, i <= loopCount, (i++)])",Chrome 127.0.0.0,,,12-08-2024 16:37:22,12-08-2024 16:46:37,9m - 15.356s,PASSED
+fis.close(),Chrome 127.0.0.0,,,12-08-2024 16:46:37,12-08-2024 16:46:37,0.000s,PASSED
+fos = new java.io.FileOutputStream(file),Chrome 127.0.0.0,,,12-08-2024 16:46:37,12-08-2024 16:46:37,0.014s,PASSED
+workbook.write(fos),Chrome 127.0.0.0,,,12-08-2024 16:46:37,12-08-2024 16:46:37,0.123s,PASSED
+fos.close(),Chrome 127.0.0.0,,,12-08-2024 16:46:37,12-08-2024 16:46:37,0.000s,PASSED
+workbook.close(),Chrome 127.0.0.0,,,12-08-2024 16:46:37,12-08-2024 16:46:37,0.000s,PASSED
+"println(""Employee data has been successfully saved in Excel."")",Chrome 127.0.0.0,,,12-08-2024 16:46:37,12-08-2024 16:46:37,0.012s,PASSED
+"callTestCase(findTestCase(""logout_testcase""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,12-08-2024 16:46:37,12-08-2024 16:46:54,16.374s,PASSED
+"callTestCase(findTestCase(""test_case_for_excel_automation_and_verifiying_data_in_excel""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,12-08-2024 16:46:54,12-08-2024 16:57:44,10m - 49.832s,PASSED

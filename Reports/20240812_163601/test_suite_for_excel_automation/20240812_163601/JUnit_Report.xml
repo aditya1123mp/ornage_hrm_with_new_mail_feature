@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test_suite_for_excel_automation" time="1.517" tests="1" failures="0" errors="0">
+   <testsuite name="test_suite_for_excel_automation" tests="1" failures="0" errors="0" time="1.517" skipped="0" timestamp="12-08-2024T16:36:06" hostname="DELL - host.docker.internal" id="Test Suites/test_suite_for_excel_automation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\DELL\\git\\excel_automation\\Reports\\20240812_163601\\test_suite_for_excel_automation\\20240812_163601"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\git\\excel_automation\\Reports\\20240812_163601\\test_suite_for_excel_automation\\20240812_163601\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - host.docker.internal"/>
+         <property name="hostAddress" value="192.168.31.251"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/test_case_for_excel_automation" time="1.301" classname="Test Cases/test_case_for_excel_automation" status="INCOMPLETE">
+         <system-out><![CDATA[12-08-2024T16:36:07 - [TEST_CASE][INCOMPLETE] - Test Cases/test_case_for_excel_automation: null
+
+12-08-2024T16:36:08 - [TEST_STEP][INCOMPLETE] - callTestCase(findTestCase("LOGIN_TEST_CASE_FOR_ORANGE_HRM"), [:], STOP_ON_FAILURE): null
+
+12-08-2024T16:36:08 - [TEST_CASE][INCOMPLETE] - Test Cases/LOGIN_TEST_CASE_FOR_ORANGE_HRM: null
+
+12-08-2024T16:36:08 - [TEST_STEP][INCOMPLETE] - openBrowser(""): null]]></system-out>
+         <system-err><![CDATA[12-08-2024T16:36:07 - [TEST_CASE][INCOMPLETE] - Test Cases/test_case_for_excel_automation: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-08-2024T16:36:06 - [TEST_SUITE][INCOMPLETE] - test_suite_for_excel_automation: null]]></system-out>
+      <system-err><![CDATA[12-08-2024T16:36:06 - [TEST_SUITE][INCOMPLETE] - test_suite_for_excel_automation: null]]></system-err>
+   </testsuite>
+</testsuites>

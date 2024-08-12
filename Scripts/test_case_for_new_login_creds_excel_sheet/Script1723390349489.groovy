@@ -20,25 +20,31 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-
 'Refresh the current web page'
 WebUI.refresh()
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'),10)
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'), 
+    10)
 
 WebUI.click(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'))
 
 WebUI.setText(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/username_text_box_login_page'), GlobalVariable.User_name)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'),10)
+WebUI.verifyElementPresent(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'), 
+    10)
 
 WebUI.click(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'))
 
 WebUI.setText(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/password_text_box_for_login_page'), GlobalVariable.Password)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page'),10)
+WebUI.verifyElementPresent(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page'), 
+    10)
 
 WebUI.click(findTestObject('Object Repository/LOGIN_TEST_CASE_FOR_ORANGE_HRM/login_button_for_login_page'))
+
+
 
 
 
