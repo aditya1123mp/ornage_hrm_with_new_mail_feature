@@ -6,12 +6,12 @@
    <elementGuidId>3cb3622d-532e-4361-a967-a5ece3c8a6c2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@class=&quot;oxd-userdropdown-tab&quot;]/ancestor::li[@class=&quot;oxd-userdropdown&quot;]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class=&quot;oxd-userdropdown-tab&quot;]/ancestor::li[@class=&quot;oxd-userdropdown&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

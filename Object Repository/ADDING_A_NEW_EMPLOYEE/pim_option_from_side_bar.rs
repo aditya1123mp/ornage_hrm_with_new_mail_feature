@@ -6,12 +6,12 @@
    <elementGuidId>22662e9b-6150-4bf7-90df-bf2d677f4a3f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@class='oxd-text oxd-text--span oxd-main-menu-item--name' and text()='PIM']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class='oxd-text oxd-text--span oxd-main-menu-item--name' and text()='PIM']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

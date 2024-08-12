@@ -46,22 +46,27 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'aditya_T2_WORK@outlook.com'</initValue>
+      <initValue>'aditya_T2_W'</initValue>
       <name>user_name_for_sender</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Fiboo112358@@'</initValue>
+      <initValue>'Fiboo11'</initValue>
       <name>sender_password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'aditya1993tue@gmail.com'</initValue>
+      <initValue>'aditya1993'</initValue>
       <name>receiver_username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ahum ufhk gxmm yuvy'</initValue>
+      <initValue>'ahum'</initValue>
       <name>receiver_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>employee_id_000</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

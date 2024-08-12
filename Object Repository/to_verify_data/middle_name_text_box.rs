@@ -6,12 +6,12 @@
    <elementGuidId>6f9e9733-bf4d-420f-bdc4-a3abb2cb83c1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@class=&quot;oxd-input oxd-input--active orangehrm-middlename&quot;]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@class=&quot;oxd-input oxd-input--active orangehrm-middlename&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

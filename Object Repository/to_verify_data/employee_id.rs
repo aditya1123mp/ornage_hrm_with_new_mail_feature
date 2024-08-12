@@ -6,12 +6,12 @@
    <elementGuidId>c64d5be2-5207-4e0e-ae51-7ddf0a17b24e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label[text()='Employee Id']/ancestor::div[@class=&quot;oxd-input-group__label-wrapper&quot;]/following-sibling::div//input[@class=&quot;oxd-input oxd-input--active&quot;]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[text()='Employee Id']/ancestor::div[@class=&quot;oxd-input-group__label-wrapper&quot;]/following-sibling::div//input[@class=&quot;oxd-input oxd-input--active&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

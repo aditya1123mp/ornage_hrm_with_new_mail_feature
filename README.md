@@ -1,2 +1,2 @@
-# ornage_hrm_with_new_mail_feature
-ornage_hrm_with_new_mail_feature
+# ORNAGEHRM_AUTOMATION_PROJECT
+ORNAGEHRM_AUTOMATION_PROJECT

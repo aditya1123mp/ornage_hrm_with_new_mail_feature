@@ -23,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//input[@class=&quot;oxd-input oxd-input--active&quot; and @name=&quot;username&quot;]</value>
-      <webElementGuid>ed14b391-668c-4aff-a3fd-cb1835ac0b02</webElementGuid>
+      <webElementGuid>9d5cdd19-6296-4209-ba9b-e07ec37b057f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

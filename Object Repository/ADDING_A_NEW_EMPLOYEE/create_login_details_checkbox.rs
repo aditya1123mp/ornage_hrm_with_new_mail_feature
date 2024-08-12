@@ -6,12 +6,12 @@
    <elementGuidId>a30fc492-6711-42d2-a6ff-b563614ab7e4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@class=&quot;oxd-switch-input oxd-switch-input--active --label-right&quot;]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class=&quot;oxd-switch-input oxd-switch-input--active --label-right&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
